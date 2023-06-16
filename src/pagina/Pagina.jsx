@@ -2,7 +2,7 @@
 export default function Pagina(props) {
   return (
     <>
-      <div className="trajetas">
+      
         <div className="tarjet">
           <div className="cuadroimg">
             <img className="img" src={props.src} alt="" />
@@ -14,7 +14,7 @@ export default function Pagina(props) {
             <p>Descripcion:{props.descripcion}</p>
           </div>
         </div>
-      </div>
+      
     </>
   );
 }
