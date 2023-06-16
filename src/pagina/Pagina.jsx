@@ -2,14 +2,14 @@
 export default function Pagina(props) {
   return (
     <>
-      <div>
-        <div>
+      <div className="contenedor">
+        <div className="titulo">
           <h1>
             <b>ANIMALES DOMESTICOS</b>
           </h1>
         </div>
-        <div>
-          <div>
+        <div className="trajetas">
+          <div className="tarjet">
             <div>
               <img src={props.src} alt="" />
             </div>
