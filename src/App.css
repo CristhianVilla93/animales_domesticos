@@ -1,0 +1,33 @@
+.contenedor{
+
+}
+
+.titulo{
+    color: rgb(120, 120, 233);
+}
+
+.trajetas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tarjet{
+    width: 400px;
+    border: 2px solid brown;
+    margin: 15px;
+    padding: 10px;
+    font-size: 15px;
+
+}
+
+.cuadroimg{
+ width: 100%;
+}
+
+.img{
+    width: 100%;
+    border-radius: 15px;
+
+}
