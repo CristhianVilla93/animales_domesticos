@@ -3,6 +3,8 @@ import cat from "../public/imagenes/cat.jpg"
 import cuy from "../public/imagenes/cuy.jpg"
 import dog from "../public/imagenes/dog.jpg"
 import goat from "../public/imagenes/goat.jpg"
+import loro from "../public/imagenes/loro.jpg"
+import vaca from "../public/imagenes/vaca.jpg"
 
 
 
@@ -46,12 +48,12 @@ function App() {
             descripcion={"Otro de los animales domésticos más significativos de nuestra historia, asociado a la fuerza, la velocidad y el espíritu salvaje, sirvió de transporte al humano durante milenios, ya fuera montándolo directamente o usándolo como tracción de diversos vehículos a ruedas (carretas, carrozas, etc)"}
           />
           <Pagina
-            src={"public/imagenes/loro.jpg"}
+            src={loro}
             animal={"Loro"}
             descripcion={"Otro de los animales domésticos más significativos de nuestra historia, asociado a la fuerza, la velocidad y el espíritu salvaje, sirvió de transporte al humano durante milenios, ya fuera montándolo directamente o usándolo como tracción de diversos vehículos a ruedas (carretas, carrozas, etc)"}
           />
           <Pagina
-            src={"public/imagenes/vaca.jpg"}
+            src={vaca}
             animal={"Vaca"}
             descripcion={"Otro de los animales domésticos más significativos de nuestra historia, asociado a la fuerza, la velocidad y el espíritu salvaje, sirvió de transporte al humano durante milenios, ya fuera montándolo directamente o usándolo como tracción de diversos vehículos a ruedas (carretas, carrozas, etc)"}
           />
